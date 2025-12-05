@@ -62,6 +62,10 @@ The top bar contains the file upload interface. You can upload files at any time
 
 ModelViewer3D is optimized for performance with minimal memory overhead. Even complex 3D models should render smoothly on most Android devices, thanks to the application's lightweight design.
 
+## Demo
+### Video demonstration
+
+
 ## License
 
 Copyright 2025+ Jihed Lablak
@@ -69,3 +73,7 @@ Copyright 2025+ Jihed Lablak
 Licensed under the Apache License, Version 2.0. See the license file included with the application for full details.
 
 ---
+
+
+https://github.com/user-attachments/assets/500c9a99-59ac-4428-8a43-3db7c2d4f628
+
