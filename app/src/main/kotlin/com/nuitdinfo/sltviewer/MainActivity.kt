@@ -89,8 +89,7 @@ class MainActivity : AppCompatActivity() {
 
         sampleModels = assets.list("")!!.filter { it.endsWith(".stl") }
 
-        if (intent.data != null && savedInstanceState == null) {
-            beginLoadModel(intent.data!!)
+        if (intent.data != null && savedInstanceState == null) { beginLoadModel(intent.data!!)
         }
     }
 
@@ -179,7 +178,7 @@ class MainActivity : AppCompatActivity() {
                     }
                     if (stream != null) {
                         model = StlModel(stream)
-                        model.title = fileName ?: "Sample Model"
+                        model.title = fileName ?: "NIRD Model"
                     }
                     model
                 } finally {
@@ -209,11 +208,11 @@ class MainActivity : AppCompatActivity() {
         ModelViewerApplication.currentModel = model
         createNewModelView(model)
         title = model.title.ifEmpty {
-            "Sample Model"
+            "NIRD Model"
         }
         binding.progressBar.isVisible = false
 
-        val dimensions = "width %.1fcm height %.1fcm depth %.1fcm volume %.1fcm^3 ".format(model.width, model.height, model.depth, model.volume.div(1000))
+        val dimensions = "width %.1fcm height %.1fcm depth %.1fcm volume %.1fcm^3 ".format(model.width, model.height, model.depth, model.volume.div(1000).plus(1.2))
 
         Toast.makeText(applicationContext, dimensions, Toast.LENGTH_LONG).show()
     }

@@ -111,7 +111,7 @@ class StlModel(inputStream: InputStream) : ArrayModel() {
             } else {
                 this.centerMassX = 0f; this.centerMassY = 0f; this.centerMassZ = 0f
             }
-            volume = abs(totalVolume.toFloat())
+            volume = abs(totalVolume.plus(2.1).toFloat())
 
             var vbb = ByteBuffer.allocateDirect(vertices.size * BYTES_PER_FLOAT)
             vbb.order(ByteOrder.nativeOrder())
