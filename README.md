@@ -52,15 +52,6 @@ Press and hold your finger on the canvas for a moment, then drag to move the mod
 2. While still holding, drag your finger to move the model
 3. Release to place the model in its new position
 
-## Tips for Best Experience
-
-- **Start with the sample model** to understand all the controls before importing your own files
-- **Use rotation to inspect details** by viewing the model from multiple angles
-- **Combine zoom and movement** to focus on specific parts of your model
-- **Check your STL file format** before uploading—the app supports both ASCII and Binary formats
-- **Ensure your files are valid** STL files to avoid loading errors
-- **Use rotation for initial positioning** before fine-tuning with movement gestures
-
 ## File Management
 
 ### Uploading Files
@@ -70,21 +61,6 @@ The top bar contains the file upload interface. You can upload files at any time
 ### Performance Considerations
 
 ModelViewer3D is optimized for performance with minimal memory overhead. Even complex 3D models should render smoothly on most Android devices, thanks to the application's lightweight design.
-
-## Troubleshooting
-
-### Model won't load
-- Verify the file is a valid STL file
-- Check that the file uses either ASCII or Binary format
-- Ensure your device has sufficient storage space and permissions to access local files
-
-### Controls feel unresponsive
-- Ensure you're using the correct gesture (one finger for rotation, two fingers for zoom, long-click for movement)
-- Try reloading the file if performance degrades
-
-### File upload button not working
-- Check that your Android device has granted the app permission to access local storage
-- Try closing and reopening the app
 
 ## License
 
