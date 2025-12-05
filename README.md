@@ -1,6 +1,6 @@
 # ModelViewer3D
 
-3D STL model viewer app for Android, Supports STL (ASCII,Binary).
+light-weight , high-performace .slt model viewer app for Android, Supports ASCII and Binary.
 
 ## License
 
